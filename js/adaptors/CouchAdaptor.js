@@ -1,7 +1,7 @@
 /**
  * CouchAdaptor 
  * ============
- * Assumes http://localhost:5984/_utils/script/couch.js has been included. Not an unreasonable assumption.
+ * Assumes ://localhost:5984/_utils/script/couch.js has been included. Not an unreasonable assumption.
  *
  */
 var CouchAdaptor = function(options) {
@@ -18,7 +18,7 @@ CouchAdaptor.prototype = {
         if (options.name == undefined)
             throw("name required for the couch adaptor. try: new Lawnchair({name:'store', adaptor:'couch'})");
         // FIXME - need to allow for running via CouchApp (rel path / no prefix)
-        CouchDB.urlPrefix = "http://127.0.0.1:5984";         
+        CouchDB.urlPrefix = "://127.0.0.1:5984";         
         this.db = new CouchDB(options.name);
         // only create a db if it hasn't been
         if (CouchDB.allDbs().indexOf(options.name) == -1) 

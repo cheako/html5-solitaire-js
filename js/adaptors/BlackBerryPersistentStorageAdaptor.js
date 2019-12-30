@@ -2,7 +2,7 @@
  * BlackBerryPersistentStorageAdaptor
  * ===================
  * Implementation that uses the BlackBerry Persistent Storage mechanism. This is only available in PhoneGap BlackBerry projects
- * See http://www.github.com/phonegap/phonegap-blackberry
+ * See ://www.github.com/phonegap/phonegap-blackberry
  *
  */
 var BlackBerryPersistentStorageAdaptor = function(options) {

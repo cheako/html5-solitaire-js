@@ -5,7 +5,7 @@
 * @ jQuery v1.2.*
 *
 * Licensed under the GPL:
-*   http://gplv3.fsf.org
+*   ://gplv3.fsf.org
 *
 * Copyright 2008, 2009 Jericho [ thisnamemeansnothing[at]gmail.com ] 
 *  usage:

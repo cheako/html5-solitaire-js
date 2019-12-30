@@ -25,7 +25,7 @@ var LawnchairAdaptorHelpers = {
 
 	// Returns a unique identifier
 	uuid: function(len, radix) {
-		// based on Robert Kieffer's randomUUID.js at http://www.broofa.com
+		// based on Robert Kieffer's randomUUID.js at ://www.broofa.com
 		var chars = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'.split('');
 		var uuid = [];
 		radix = radix || chars.length;

@@ -3,7 +3,7 @@
  * ===================
  * Cookie implementation for Lawnchair for older browsers.
  *
- * Based on ppk's http://www.quirksmode.org/js/cookies.html
+ * Based on ppk's ://www.quirksmode.org/js/cookies.html
  *
  */
 var CookieAdaptor = function(options) {

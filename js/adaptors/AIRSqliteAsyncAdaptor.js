@@ -11,7 +11,7 @@ the terms of Adobe AIR SDK license agreement.  You may have received this file f
 source other than Adobe.	Nonetheless, you may modify or
 distribute this file only in accordance with such agreement.
 
-http://www.adobe.com/products/air/tools/sdk/eula/
+://www.adobe.com/products/air/tools/sdk/eula/
 */
 
 var air;

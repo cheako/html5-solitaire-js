@@ -9,7 +9,7 @@ var CM =
 	trueModelName: '',		// as returned my Mojo.Environment
 	isiOS: false,
 	isPlaybook: false,
-	twitterURL: 'http://twitter.com/home?status=',
+	twitterURL: '://twitter.com/home?status=',
 	
 	init: function()
 	{
